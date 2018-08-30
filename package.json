@@ -1,0 +1,11 @@
+{
+  "name": "react-native-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Petemab/react-native-practice.git",
+  "author": "Petemab <peteben18@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-native-app": "^1.0.0"
+  }
+}
