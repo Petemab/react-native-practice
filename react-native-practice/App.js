@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Image from './components/Image';
 import Welcome from './components/Welcome';
+import BlinkApp from './components/BlinkApp';
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +11,8 @@ export default class App extends React.Component {
         <Text>Hello Ailsa! How are you?</Text>
         <Image />
         <Welcome />
+        <BlinkApp/>
+
       </View>
     );
   }

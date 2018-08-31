@@ -25,8 +25,8 @@ class Blink extends Component {
 export default class BlinkApp extends Component {
   render() {
     return (
-      <View>
-        <Blink text='I love to blink' />
+      <View style={{backgroundColor: 'powderblue'}}>
+        <Blink text='I love to blink'/>
         <Blink text='Yes blinking is so great' />
         <Blink text='Why did they ever take this out of HTML' />
         <Blink text='Look at me look at me look at me' />
